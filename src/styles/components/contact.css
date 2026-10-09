@@ -1,0 +1,63 @@
+/* General Layout */
+.container {
+  max-width: 100%;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.col-left,
+.col-right {
+  width: 50%; /* Each column takes 50% of the screen width */
+}
+
+.col-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the form vertically */
+}
+
+/* Contact Form */
+.contact__form input,
+.contact__form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--clr-light);
+  border-radius: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.contact__form textarea {
+  resize: vertical;
+  height: 250px;
+}
+
+.input-row {
+  display: flex;
+  gap: 20px;
+}
+
+.input-group {
+  flex: 1;
+}
+
+/* Buttons */
+
+/* Typography and Borders */
+.display-4 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact__hr {
+  border-color: var(--clr-slate800);
+  margin-bottom: 20px;
+}
+.color_sec {
+  color: var(--clr-light);
+}

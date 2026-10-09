@@ -1,0 +1,138 @@
+.hero {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.75rem, 2vw, 2rem);
+  margin-top: clamp(1rem, 3vw, 2rem);
+  max-width: 100%;
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.75rem, 2vw, 2rem);
+  min-width: 0;
+}
+
+.hero__card {
+  display: none;
+  border: 1px solid var(--clr-light);
+  border-radius: 10px;
+  background: var(--clr-dark);
+  box-shadow: 0.6rem 0.6rem var(--clr-light);
+  overflow: hidden;
+  min-width: 0;
+}
+
+.hero__card-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 0.9rem;
+  border-bottom: 1px solid var(--clr-light);
+}
+
+.hero__dot {
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+  border: 1px solid var(--clr-light);
+}
+
+.hero__card-file {
+  margin-left: auto;
+  font-size: 0.8rem;
+  color: var(--clr-slate600);
+}
+
+.hero__code {
+  padding: 1.25rem 1.1rem;
+  font-family: "Consolas", "Courier New", monospace;
+  font-size: clamp(0.8rem, 1.1vw, 0.95rem);
+  line-height: 1.7;
+  color: var(--clr-slate400);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 900px) {
+  .hero__grid {
+    grid-template-columns: 1.4fr 1fr;
+    gap: 3rem;
+  }
+
+  .hero__card {
+    display: block;
+  }
+
+  .hero__title {
+    font-size: clamp(2rem, 3.5vw, 3.55rem);
+  }
+
+  .hero__title span {
+    white-space: nowrap;
+  }
+}
+
+.hero__img {
+  border-radius: 50%;
+  width: clamp(4.5rem, 12vw, 10rem);
+  height: clamp(4.5rem, 12vw, 10rem);
+}
+
+.hero__subtitle,
+.hero__title,
+.hero__description,
+.hero__btn {
+  margin-left: 0;
+  max-width: 100%;
+}
+
+.hero__subtitle {
+  color: var(--clr-slate600);
+  font-size: clamp(1.35rem, 2.2vw, 1.85rem);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.hero__title {
+  color: var(--clr-light);
+  text-transform: uppercase;
+  font-size: clamp(1.7rem, 7.2vw, 3.55rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.hero__title span {
+  display: block;
+}
+
+.hero__description {
+  font-size: clamp(1rem, 1.25vw, 1.15rem);
+  color: var(--clr-slate600);
+  max-width: 46ch;
+  line-height: 1.6;
+}
+
+.hero__btn {
+  text-transform: capitalize;
+  font-size: clamp(0.875rem, 1.2vw, 1.25rem);
+  display: block;
+}
+
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 1.25rem 0 0;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  color: var(--clr-light);
+}

@@ -1,0 +1,54 @@
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+html, body {
+  min-height: 100%;
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-flex-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#main-gc {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--clr-dark);
+}
+
+.one-blank {
+  width: 100%;
+  height: 100vh;
+  color: var(--clr-light);
+  gap: 2vw;
+  font-size: var(--size-xl);
+}
