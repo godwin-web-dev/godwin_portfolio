@@ -8,20 +8,36 @@ const groups: { icon: string; title: string; items: string[] }[] = [
   },
   {
     icon: '◧',
-    title: 'Frameworks and Libraries',
-    items: ['React.js', 'Material UI', 'AG Grid', 'FastAPI', 'Flask', 'Django', 'Node.js', 'REST APIs'],
+    title: 'Front End',
+    items: ['React.js', 'TypeScript', 'Material UI', 'AG Grid', 'Next.js (basic)'],
+  },
+  {
+    icon: '▤',
+    title: 'Back End',
+    items: [
+      'FastAPI (async)', 'Flask', 'Django', 'Django REST Framework', 'Pydantic',
+      'SQLAlchemy', 'REST APIs', 'Node.js', 'Express',
+    ],
   },
   {
     icon: '≡',
     title: 'Databases',
-    items: ['PostgreSQL', 'MySQL', 'Oracle', 'MongoDB'],
+    items: ['PostgreSQL', 'MySQL', 'Oracle', 'MongoDB', 'Redis'],
   },
   {
     icon: '⚙',
-    title: 'Tools and Platforms',
+    title: 'Data and DevOps',
     items: [
-      'Git', 'Linux', 'Jira', 'pytest', 'Jenkins', 'Docker', 'Kubernetes',
-      'Kafka', 'Airflow', 'Dynatrace', 'Dremio', 'AWS (S3)',
+      'Airflow', 'Kafka', 'Dremio', 'Spark', 'Docker', 'Kubernetes', 'Jenkins CI/CD',
+      'Git', 'Linux', 'AWS (S3)', 'Dynatrace', 'Jira', 'pytest',
+    ],
+  },
+  {
+    icon: '✦',
+    title: 'AI and ML',
+    items: [
+      'scikit-learn', 'TensorFlow', 'NumPy and Pandas (basic)',
+      'Basic knowledge of LLMs and RAG',
     ],
   },
 ];

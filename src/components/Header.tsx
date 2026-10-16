@@ -74,7 +74,7 @@ const Header: React.FC = () => {
             </li>
           ))}
           <li className="header__line"></li>
-          <li><a className="header__resume btn" href="/VGodwin_Resume.pdf" target="_blank" rel="noreferrer">Resume</a></li>
+          <li><a className="header__resume btn" href="/VGodwin_2Y_01m_Fullstack_Developer_v3.pdf" download="VGodwin_Resume.pdf">Resume</a></li>
         </ul>
         <button
           type="button"
@@ -121,7 +121,7 @@ const Header: React.FC = () => {
           ))}
           <li className="mobile-nav__link-line"></li>
           <li>
-            <a className="mobile-nav__link mobile-nav__btn btn" href="/VGodwin_Resume.pdf" target="_blank" rel="noreferrer" onClick={() => setMenuOpen(false)}>
+            <a className="mobile-nav__link mobile-nav__btn btn" href="/VGodwin_2Y_01m_Fullstack_Developer_v3.pdf" download="VGodwin_Resume.pdf" onClick={() => setMenuOpen(false)}>
               Resume
             </a>
           </li>

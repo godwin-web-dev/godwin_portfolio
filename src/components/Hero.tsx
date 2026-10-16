@@ -11,10 +11,10 @@ const Hero: React.FC = () => {
             <span>software engineer.</span>
           </h1>
           <p className="hero__description">
-            Software Engineer with <strong>2 years</strong> of experience building
-            dashboards and web applications with <strong>React, TypeScript</strong> and{' '}
-            <strong>Python (FastAPI, Flask)</strong>, and supporting a large data
-            platform in production.
+            Software Engineer with <strong>2 years and 1 month</strong> of experience
+            building dashboards and web applications with <strong>React, TypeScript</strong> and{' '}
+            <strong>Python (FastAPI, Flask)</strong>, and keeping a large data
+            platform running in production.
           </p>
         </div>
 
@@ -29,13 +29,13 @@ const Hero: React.FC = () => {
   role: "Software Engineer",
   company: "Onstak Technologies Pvt Ltd",
   client: "NetApp",
-  experience: "2 years",
+  experience: "2 years 1 month",
   location: "Bengaluru",
   languages: ["Python", "JavaScript", "TypeScript", "SQL"],
   frontend: ["React", "TypeScript"],
-  backend: ["FastAPI", "Flask"],
+  backend: ["FastAPI", "Flask", "Django"],
   databases: ["PostgreSQL", "MySQL", "Oracle", "MongoDB"],
-  data: ["Dremio", "Kafka"],
+  data: ["Dremio", "Kafka", "Airflow"],
   openToWork: true,
 };`}</pre>
         </aside>
