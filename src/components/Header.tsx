@@ -121,7 +121,7 @@ const Header: React.FC = () => {
           ))}
           <li className="mobile-nav__link-line"></li>
           <li>
-            <a className="mobile-nav__link mobile-nav__btn btn" href="/VGodwin_2Y_01m_Fullstack_Developer_v3.pdf" download="VGodwin_Resume.pdf" onClick={() => setMenuOpen(false)}>
+            <a className="mobile-nav__link mobile-nav__btn btn" href="/VGodwin_2Y_01m_Fullstack_Developer_Resume.pdf" download="VGodwin_Resume.pdf" onClick={() => setMenuOpen(false)}>
               Resume
             </a>
           </li>
